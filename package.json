@@ -31,7 +31,7 @@
     }
   ],
   "license": "BSD-3-Clause",
-  "name": "tough-cookie",
+  "name": "tough-cookie-no-native",
   "description": "RFC6265 Cookies and Cookie Jar for node.js",
   "keywords": [
     "HTTP",
@@ -66,5 +66,9 @@
   "devDependencies": {
     "async": "^1.4.2",
     "vows": "^0.8.1"
+  },
+  "dependencies": {
+    "is-ip": "^1.0.0",
+    "url": "^0.11.0"
   }
 }
