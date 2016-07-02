@@ -44,13 +44,13 @@
     "RFC2965"
   ],
   "version": "2.2.3",
-  "homepage": "https://github.com/SalesforceEng/tough-cookie",
+  "homepage": "https://github.com/JonnyBurger/tough-cookie-no-native",
   "repository": {
     "type": "git",
-    "url": "git://github.com/SalesforceEng/tough-cookie.git"
+    "url": "git://github.com/JonnyBurger/tough-cookie-no-native.git"
   },
   "bugs": {
-    "url": "https://github.com/SalesforceEng/tough-cookie/issues"
+    "url": "https://github.com/JonnyBurger/tough-cookie-no-native/issues"
   },
   "main": "./lib/cookie",
   "files": [
@@ -68,6 +68,7 @@
     "vows": "^0.8.1"
   },
   "dependencies": {
+    "cheerio-without-node-native": "^0.20.0",
     "is-ip": "^1.0.0",
     "url": "^0.11.0"
   }
