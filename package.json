@@ -4,8 +4,7 @@
     "email": "jonathanburger11@gmail.com",
     "website": "http://jonny.io"
   },
-  "contributors": [
-  ],
+  "contributors": [],
   "license": "BSD-3-Clause",
   "name": "tough-cookie-no-native",
   "description": "'tough-cookie' with no native dependencies",
@@ -19,7 +18,7 @@
     "RFC6265",
     "RFC2965"
   ],
-  "version": "2.2.3",
+  "version": "2.3.0",
   "homepage": "https://github.com/JonnyBurger/tough-cookie-no-native",
   "repository": {
     "type": "git",
