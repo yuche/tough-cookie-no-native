@@ -5,6 +5,7 @@
     "website": "http://jonny.io"
   },
   "contributors": [],
+  "typings": "index.d.ts",
   "license": "BSD-3-Clause",
   "name": "tough-cookie-no-native",
   "description": "'tough-cookie' with no native dependencies",
@@ -28,9 +29,6 @@
     "url": "https://github.com/JonnyBurger/tough-cookie-no-native/issues"
   },
   "main": "./lib/cookie",
-  "files": [
-    "lib"
-  ],
   "scripts": {
     "suffixup": "curl -o public_suffix_list.dat https://publicsuffix.org/list/public_suffix_list.dat && ./generate-pubsuffix.js",
     "test": "vows test/*_test.js"
