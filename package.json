@@ -44,6 +44,7 @@
     "cheerio-without-node-native": "^0.20.0",
     "is-ip": "^1.0.0",
     "url": "^0.11.0",
-    "punycode": "^2.0.0"
+    "punycode": "^2.0.0",
+    "util": "^0.10.3"
   }
 }
